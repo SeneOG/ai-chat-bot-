@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "hsk-proj-s0fUrcgsRbxR3ZM41Co_erKvnVhLAepHILRAT0L8-9bvCwvuexxvfyhl0vKEjcXEyo38caT5kDT3BlbkFJR2f4QerEcQoj6JytJnh7VUHg00LFcS5t_JuV0_WrWDTsyHzaYYcBuyNcQPn-F6w4853x79DgIA"
+OPENAI_API_KEY=your-new-key-here
 def chat_with_gpt(prompt):
     response = openai.chatcompletions.create(
         model = "gpt-3.5-turbo",
